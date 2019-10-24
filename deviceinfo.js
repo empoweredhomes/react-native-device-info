@@ -366,7 +366,7 @@ export default {
           } else if (deviceId.startsWith('iPad')) {
             deviceName = 'iPad';
           } else if (deviceId.startsWith('iPhone')) {
-            deviceName = 'iPhone';
+            deviceName = RNDeviceInfo.deviceName;
           } else if (deviceId.startsWith('AppleTV')) {
             deviceName = 'Apple TV';
           }
