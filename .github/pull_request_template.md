@@ -26,5 +26,7 @@ Added `yourNewMethodName()` that allows ...
 <!-- Check completed item: [X] -->
 
 * [ ] I have tested this on a device/simulator for each compatible OS
-* [ ] I added the documentation in `README.md`.
-* [ ] I mentionned this change in `CHANGELOG.md`.
+* [ ] I added the documentation in `README.md`
+* [ ] I mentioned this change in `CHANGELOG.md`
+* [ ] I updated the typings files (`privateTypes.ts`, `types.ts`)
+* [ ] I added a sample use of the API (`example/App.js`)
