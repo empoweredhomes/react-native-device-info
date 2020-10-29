@@ -29,6 +29,22 @@ if (!RNDeviceInfo) {
 const devicesWithNotch = [
   {
     brand: 'Apple',
+    model: 'iPhone 12 mini',
+  },
+  {
+    brand: 'Apple',
+    model: 'iPhone 12',
+  },
+  {
+    brand: 'Apple',
+    model: 'iPhone 12 Pro',
+  },
+  {
+    brand: 'Apple',
+    model: 'iPhone 12 Pro Max',
+  },
+  {
+    brand: 'Apple',
     model: 'iPhone 11',
   },
   {
@@ -68,6 +84,10 @@ const devicesWithNotch = [
     model: 'Pixel 3 XL',
   },
   {
+    brand: 'google',
+    model: 'Pixel 3a',
+  },
+  {
     brand: 'Huawei',
     model: 'P20',
   },
@@ -89,7 +109,31 @@ const devicesWithNotch = [
   },
   {
     brand: 'Huawei',
+    model: 'POT-LX1',
+  },
+  {
+    brand: 'Huawei',
     model: 'Honor 10',
+  },
+  {
+    brand: 'Huawei',
+    model: 'Mate 20 Lite',
+  },
+  {
+    brand: 'Huawei',
+    model: 'Mate 20 Pro',
+  },
+  {
+    brand: 'Huawei',
+    model: 'ELE-L29', // P30
+  },
+  {
+    brand: 'Huawei',
+    model: 'P30 Lite',
+  },
+  {
+    brand: 'Huawei',
+    model: 'P30 Pro',
   },
   {
     brand: 'Huawei',
@@ -128,12 +172,36 @@ const devicesWithNotch = [
     model: 'LM-V405', //V40 ThinQ
   },
   {
+    brand: 'Motorola',
+    model: 'Moto g7 Play',
+  },
+  {
+    brand: 'Motorola',
+    model: 'Moto g7 Power',
+  },
+  {
+    brand: 'Motorola',
+    model: 'One',
+  },
+  {
+    brand: 'Motorola',
+    model: 'Motorola One Vision',
+  },
+  {
     brand: 'Nokia',
-    model: '6.1 Plus',
+    model: '5.1 Plus',
+  },
+  {
+    brand: 'Nokia',
+    model: 'Nokia 6.1 Plus',
   },
   {
     brand: 'Nokia',
     model: '7.1',
+  },
+  {
+    brand: 'Nokia',
+    model: '8.1',
   },
   {
     brand: 'OnePlus',
@@ -217,6 +285,10 @@ const devicesWithNotch = [
   },
   {
     brand: 'xiaomi',
+    model: 'Mi 9',
+  },
+  {
+    brand: 'xiaomi',
     model: 'POCO F1',
   },
   {
@@ -233,7 +305,23 @@ const devicesWithNotch = [
   },
   {
     brand: 'xiaomi',
+    model: 'Redmi 7',
+  },
+  {
+    brand: 'xiaomi',
+    model: 'Redmi Note 8',
+  },
+  {
+    brand: 'xiaomi',
     model: 'Mi A2 Lite',
+  },
+  {
+    brand: 'Blackview',
+    model: 'A30',
+  },
+  {
+    brand: 'Samsung',
+    model: 'SM-A217F',
   },
 ];
 
@@ -293,6 +381,11 @@ const deviceNamesByCode = {
   'iPhone12,1': 'iPhone 11',
   'iPhone12,3': 'iPhone 11 Pro',
   'iPhone12,5': 'iPhone 11 Pro Max',
+  'iPhone13,1': 'iPhone 12 mini',
+  'iPhone13,2': 'iPhone 12',
+  'iPhone13,3': 'iPhone 12 Pro',
+  'iPhone13,4': 'iPhone 12 Pro Max',
+  'iPhone12,8': 'iPhone SE',
   'iPad4,1': 'iPad Air', // 5th Generation iPad (iPad Air) - Wifi
   'iPad4,2': 'iPad Air', // 5th Generation iPad (iPad Air) - Cellular
   'iPad4,3': 'iPad Air', // 5th Generation iPad (iPad Air)
